@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+} 
+
+html {
+    background-color: darkslategray;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family:'Titan One', 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+a {
+    color: white;
+}
+
+p {
+
+}
+
+.background-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color:black;
+    width: 100%;
+    position: fixed;
+}
+
+.headerlogo {
+    height: 34px;
+    width: ;
+    margin-left: 24px;
+    border: 4px solid grey;
+}
+
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+
+.navlinks a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+}
+
+.navlinks a :hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+/* Title Section */
+.titile-section {
+    display: flex;
+    align-items: center;
+}
+
+.mediabox {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Quote Section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 192px 96px;
+    background-color:cadetblue;
+    font-size: 28px;
+    line-height: 150%;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.quote-section ul {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align:center;
+}
+
+#golden {
+    font-weight: 250;
+    font-size: 21px;
+}
+
+.quote-section p {
+    text-align: end;
+    font-style: normal;
+    font-weight: 600;
+    color:aliceblue;
+    font-size: 24px;
+}
+
+
+
+/* Sign-up Section */
+
+
+.background-container {
+
+}
